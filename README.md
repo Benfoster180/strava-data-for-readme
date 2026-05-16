@@ -23,6 +23,10 @@ Run the setup script:
 - Approve permissions
 - Copy the authorization code
 
+```
+http://localhost/?state=&code={YOUR CODE WILL BE HERE}d&scope=read,activity:read_all,profile:read_all
+```
+
 This will generate:
 
 - `STRAVA_ACCESS_TOKEN`
