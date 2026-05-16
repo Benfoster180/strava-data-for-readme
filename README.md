@@ -13,4 +13,17 @@ STRAVA_CLIENT_ID=YOUR_CLIENT_ID
 STRAVA_CLIENT_SECRET=8498f6c58c78208abfc8e25d44abcbbdb10ee327
 ```
 
+Run the setup script:
 ./venv/bin/python token_setup.py
+
+## 🌐 Step 3 — Follow login flow
+
+- A browser window will open
+- Log in to Strava
+- Approve permissions
+- Copy the authorization code
+
+This will generate:
+
+- `STRAVA_ACCESS_TOKEN`
+- `STRAVA_REFRESH_TOKEN`
